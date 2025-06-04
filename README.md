@@ -12,7 +12,13 @@ This project uses [`uv`](https://github.com/astral-sh/uv) for dependency managem
 uv sync
 ```
 
-### 2. Run the Application
+### 2. Activate (pwsh)
+
+```pwsh
+.\.venv\Scripts\activate.ps1
+```
+
+### 3. Run the Application
 
 ```pwsh
 uv run .\src\game.py
